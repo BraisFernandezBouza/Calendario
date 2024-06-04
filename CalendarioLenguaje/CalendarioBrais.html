@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Enlace libreria de calendario:https://github.com/edlynvillegas/evo-calendar?tab=readme-ov-file#calendarevent-options-example.   Esta explicada detalladamente como usarla. -->
+    <link rel="stylesheet" href="../CalendarioLenguaje/CalendarioBrais.css"><!--Mi css-->
+    <link rel="stylesheet" href="evo-calendar.min.css"><!--CSS del calendario propio,default-->
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css"><!--CSS del calendario propio,pero con cambio de temas, letras, fondos,etc...-->
+</head>
+<body>
+    
+    
+    <div class="hero">
+
+        <div id="calendar"></div><!--Vale, este div lo que hace es interactuar con la libreria, ojo, esta tiene que tener este id, ya que el de la libreria también es inglés. Y se amolda al código de esta.-->
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script><!--Gestor de paquetes de la libreria.-->
+    <script src="evo-calendar.min.js"></script><!--Enlace a la libreria js para crear el calendario, he tenido que cambiar bastante ids, a español, porqué por default salen en inglés.-->
+    <script src="../CalendarioLenguaje/CalendarioBrais.js"></script><!--Enlace a mi js para crear los eventos-->
+
+</body>
+</html>
